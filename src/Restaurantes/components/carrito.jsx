@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Carrito = (props) => {
   const [total, setTotal] = useState(0);
@@ -39,6 +40,9 @@ const Carrito = (props) => {
           </tr>
         </tbody>
       </table>
+      <Link to="/Restaurantes/estado_pedido">
+        <button>Realizar Pedido</button>
+      </Link>
     </div>
   );
 };
