@@ -5,7 +5,7 @@ function LoginForm(props) {
     const [password, setPassword] = useState("")
 
     const butOnClick = function () {
-        console.log("USuario:", usuario)
+        console.log("Usuario:", usuario)
         console.log("Password:", password)
         props.onLoginOk(usuario, password)
     }
@@ -27,15 +27,15 @@ function LoginForm(props) {
             </div>
 
             <div id="container-bt">
-                <button type="button" class="btn btn-lg btn-block mt-2  mb-3"
+                <button type="button" class="btn btn-lg btn-block mt-3  mb-3"
                     onClick={butOnClick}>
                     Login
                 </button>
             </div>
 
             <div>
-                <a href="#">  ¿Olvidaste tu contraseña?  </a>
-                <a href="#">  Registrate  </a>
+                <a href="#">¿Olvidaste tu contraseña?   </a>
+                <a href="#">Registrate   </a>
             </div>
 
         </div>

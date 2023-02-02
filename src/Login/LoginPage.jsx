@@ -9,8 +9,8 @@ function LoginPage() {
     const onLoginOk = function(
         usuario, password
     ) {
-        if (usuario === "pw" 
-            && password === "123") {
+        if (usuario === "Renzo " 
+            && password === "Cavero") {
 
             const dataUsuario = {
                 username : usuario,
