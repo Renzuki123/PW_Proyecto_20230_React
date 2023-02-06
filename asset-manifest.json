@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PW_Proyecto_20230_React/static/css/main.f9ff19f4.css",
+    "main.js": "/PW_Proyecto_20230_React/static/js/main.d5d40920.js",
+    "static/media/bgLogin.jpg": "/PW_Proyecto_20230_React/static/media/bgLogin.d60a50af6d78983edebf.jpg",
+    "static/media/bgReq2.jpg": "/PW_Proyecto_20230_React/static/media/bgReq2.c3919ddae59396627f92.jpg",
+    "index.html": "/PW_Proyecto_20230_React/index.html",
+    "main.f9ff19f4.css.map": "/PW_Proyecto_20230_React/static/css/main.f9ff19f4.css.map",
+    "main.d5d40920.js.map": "/PW_Proyecto_20230_React/static/js/main.d5d40920.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9ff19f4.css",
+    "static/js/main.d5d40920.js"
+  ]
+}
