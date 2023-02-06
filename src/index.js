@@ -15,13 +15,13 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={ <MainPage/> } />
-        <Route path='/Login' element={ <LoginPage/> } />
-        <Route path='/Carrito' element={ <carrito/> } />
-        <Route path='/Restaurantes/restaurant' element={ <Restaurant/> } />
-        <Route path= '/Restaurantes/estado_pedido' element={ <Estado_pedido/>}/>
-        <Route path='/Req2' element = {<Req2/>}/>
-        <Route path='/Restaurantes/registro_pedido' element = {<Registro_pedido/>}/>
+        <Route path='/PW_Proyecto_20230_React' element={ <MainPage/> } />
+        <Route path='/PW_Proyecto_20230_React/Login' element={ <LoginPage/> } />
+        <Route path='/PW_Proyecto_20230_React/Carrito' element={ <carrito/> } />
+        <Route path='/PW_Proyecto_20230_React/Restaurantes/restaurant' element={ <Restaurant/> } />
+        <Route path= '/PW_Proyecto_20230_React/Restaurantes/estado_pedido' element={ <Estado_pedido/>}/>
+        <Route path='/PW_Proyecto_20230_React/Req2' element = {<Req2/>}/>
+        <Route path='/PW_Proyecto_20230_React/Restaurantes/registro_pedido' element = {<Registro_pedido/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

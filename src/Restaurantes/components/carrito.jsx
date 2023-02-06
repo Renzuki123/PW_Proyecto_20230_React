@@ -40,7 +40,7 @@ const Carrito = (props) => {
           </tr>
         </tbody>
       </table>
-      <Link to="/Restaurantes/estado_pedido">
+      <Link to="/PW_Proyecto_20230_React/Restaurantes/estado_pedido">
         <button>Realizar Pedido</button>
       </Link>
     </div>

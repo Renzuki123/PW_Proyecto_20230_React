@@ -167,12 +167,6 @@ const data = [
 		Puntuacion: 'Excelente',
 	},
 
-
-
-
-
-
-    
 ];
 
 export default data;
